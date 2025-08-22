@@ -11,7 +11,7 @@ spider_settings:
   json_url: "https://tjqaq.com/friend.json"
   article_count: 6
   merge_result:
-    enable: false
+    enable: true
     merge_json_url: "https://taqaq.com"
 
 # 邮箱推送功能配置，暂未实现，等待后续开发
@@ -21,7 +21,7 @@ spider_settings:
 #   subject:            邮件主题
 #   body_template:      邮件正文的 HTML 模板文件
 email_push:
-  enable: true
+  enable: false
   to_email: 2115438238@qq.com
   subject: "今天的 RSS 订阅更新"
   body_template: "rss_template.html"
